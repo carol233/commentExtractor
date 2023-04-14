@@ -1,6 +1,8 @@
 # commentExtractor
 要使用Python解析C++并提取函数和注释，您可以使用libclang-python库，它为libclang提供了Python绑定。首先，确保安装了libclang和libclang-python：
 
+-------------------
+
 # Ubuntu
 sudo apt-get install libclang-dev python3-clang
 
@@ -8,7 +10,7 @@ sudo apt-get install libclang-dev python3-clang
 brew install llvm
 pip install clang
 
-
+-------------------
 接下来，创建一个名为extract_cpp_functions_comments.py的Python文件，然后输入以下代码：
 
 (cpp.py)
